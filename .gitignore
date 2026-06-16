@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.DS_Store
+*.log
+
+# public/data.json is intentionally committed — it's the baked snapshot Lovable
+# and GitHub Pages read. Refresh it with: npm run refresh
