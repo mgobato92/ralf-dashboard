@@ -28,11 +28,13 @@ export default function Page() {
   const [selectedId, setSelectedId] = useState("ralf");
 
   // Always reads from /public/data.json — a snapshot baked from runner.log.
-  // Refresh it locally anytime with: npm run export:data
+  // Refresh it locally anytime with: npm run refresh
+  // NEXT_PUBLIC_BASE_PATH is set to /ralf-dashboard in the GitHub Pages build.
+  const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
   const load = useCallback(async () => {
-    const s = await fetch("/data.json", { cache: "no-store" }).then((r) => r.json());
+    const s = await fetch(`${BASE}/data.json`, { cache: "no-store" }).then((r) => r.json());
     setData(s);
-  }, []);
+  }, [BASE]);
 
   useEffect(() => {
     load();
