@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-29T17:00:19.975Z",
+  "generatedAt": "2026-09-30T17:04:02.381Z",
   "summary": {
-    "totalRuns": 6995,
-    "runsToday": 12,
+    "totalRuns": 6997,
+    "runsToday": 2,
     "uptime": 87,
     "activeAgents": 20,
-    "totalFailures": 905,
-    "lastActivityIso": "2026-09-29T17:00:19.000Z"
+    "totalFailures": 906,
+    "lastActivityIso": "2026-09-30T17:04:02.000Z"
   },
   "agents": [
     {
@@ -36,13 +36,13 @@
       "category": "core",
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
-      "runs": 112,
+      "runs": 113,
       "runsToday": 1,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
-      "lastStartIso": "2026-09-29T10:34:41.000Z",
-      "lastEndIso": "2026-09-29T12:29:30.000Z",
+      "lastStartIso": "2026-09-30T10:35:40.000Z",
+      "lastEndIso": "2026-09-30T10:35:43.000Z",
       "lastExit": null
     },
     {
@@ -55,7 +55,7 @@
       "schedule": "Weekdays 7:57 BRT",
       "description": "Today's calendar, open action items, and urgent inbox — synced against Projects memory first.",
       "runs": 128,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 60,
       "failures": 51,
       "status": "ok",
@@ -73,7 +73,7 @@
       "schedule": "Hourly :13 (8a–6p)",
       "description": "Prepares a brief ahead of each upcoming meeting: who, context, recent threads, and what to land.",
       "runs": 3632,
-      "runsToday": 6,
+      "runsToday": 0,
       "successRate": 91,
       "failures": 344,
       "status": "ok",
@@ -91,7 +91,7 @@
       "schedule": "Hourly :43 (8a–6p)",
       "description": "Processes the last meeting: notes, decisions, and new action items into the Action Items DB.",
       "runs": 1260,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 79,
       "failures": 262,
       "status": "ok",
@@ -109,7 +109,7 @@
       "schedule": "Follows each post-meeting run",
       "description": "Second pass after post-meeting to chase loose ends and confirm captured items.",
       "runs": 977,
-      "runsToday": 2,
+      "runsToday": 0,
       "successRate": 93,
       "failures": 70,
       "status": "ok",
@@ -461,6 +461,38 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-09-30T17:04:02.000Z",
+      "date": "2026-09-30",
+      "time": "10:04:02",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-09-30T10:35:43.000Z",
+      "date": "2026-09-30",
+      "time": "03:35:43",
+      "kind": "END",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-09-30T10:35:40.000Z",
+      "date": "2026-09-30",
+      "time": "03:35:40",
+      "kind": "START",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-09-29T17:00:20.000Z",
+      "date": "2026-09-29",
+      "time": "10:00:20",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 1
+    },
     {
       "iso": "2026-09-29T17:00:19.000Z",
       "date": "2026-09-29",
@@ -908,38 +940,6 @@
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
-    },
-    {
-      "iso": "2026-09-28T17:00:03.000Z",
-      "date": "2026-09-28",
-      "time": "10:00:03",
-      "kind": "START",
-      "agent": "dashboard-refresh",
-      "exit": null
-    },
-    {
-      "iso": "2026-09-28T16:53:29.000Z",
-      "date": "2026-09-28",
-      "time": "09:53:29",
-      "kind": "END",
-      "agent": "post-meeting-followup",
-      "exit": 0
-    },
-    {
-      "iso": "2026-09-28T16:53:01.000Z",
-      "date": "2026-09-28",
-      "time": "09:53:01",
-      "kind": "START",
-      "agent": "post-meeting-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-09-28T16:48:06.000Z",
-      "date": "2026-09-28",
-      "time": "09:48:06",
-      "kind": "END",
-      "agent": "post-meeting",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -1025,14 +1025,14 @@
       0,
       0,
       0,
-      0,
+      1,
       4,
       4,
       10,
       37,
       89,
       92,
-      144,
+      145,
       109,
       106,
       87,
