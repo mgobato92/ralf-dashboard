@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-22T17:01:21.508Z",
+  "generatedAt": "2026-10-23T17:05:38.362Z",
   "summary": {
-    "totalRuns": 7723,
-    "runsToday": 6,
+    "totalRuns": 7725,
+    "runsToday": 2,
     "uptime": 88.1,
     "activeAgents": 22,
     "totalFailures": 921,
-    "lastActivityIso": "2026-10-22T17:01:21.000Z"
+    "lastActivityIso": "2026-10-23T17:05:38.000Z"
   },
   "agents": [
     {
@@ -36,13 +36,13 @@
       "category": "core",
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
-      "runs": 129,
+      "runs": 130,
       "runsToday": 1,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
-      "lastStartIso": "2026-10-22T10:45:23.000Z",
-      "lastEndIso": "2026-10-22T10:55:22.000Z",
+      "lastStartIso": "2026-10-23T10:44:59.000Z",
+      "lastEndIso": "2026-10-23T12:10:37.000Z",
       "lastExit": null
     },
     {
@@ -55,7 +55,7 @@
       "schedule": "Weekdays 7:57 BRT",
       "description": "Today's calendar, open action items, and urgent inbox — synced against Projects memory first.",
       "runs": 144,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 64,
       "failures": 51,
       "status": "ok",
@@ -73,7 +73,7 @@
       "schedule": "Hourly :13 (8a–6p)",
       "description": "Prepares a brief ahead of each upcoming meeting: who, context, recent threads, and what to land.",
       "runs": 4020,
-      "runsToday": 2,
+      "runsToday": 0,
       "successRate": 91,
       "failures": 347,
       "status": "ok",
@@ -109,7 +109,7 @@
       "schedule": "Follows each post-meeting run",
       "description": "Second pass after post-meeting to chase loose ends and confirm captured items.",
       "runs": 1075,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 93,
       "failures": 71,
       "status": "ok",
@@ -461,6 +461,38 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-10-23T17:05:38.000Z",
+      "date": "2026-10-23",
+      "time": "14:05:38",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-10-23T12:10:37.000Z",
+      "date": "2026-10-23",
+      "time": "09:10:37",
+      "kind": "END",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-10-23T10:44:59.000Z",
+      "date": "2026-10-23",
+      "time": "07:44:59",
+      "kind": "START",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-10-22T17:01:25.000Z",
+      "date": "2026-10-22",
+      "time": "14:01:25",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 0
+    },
     {
       "iso": "2026-10-22T17:01:21.000Z",
       "date": "2026-10-22",
@@ -908,38 +940,6 @@
       "kind": "END",
       "agent": "dashboard-refresh",
       "exit": 0
-    },
-    {
-      "iso": "2026-10-21T17:01:42.000Z",
-      "date": "2026-10-21",
-      "time": "14:01:42",
-      "kind": "START",
-      "agent": "dashboard-refresh",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-21T15:01:14.000Z",
-      "date": "2026-10-21",
-      "time": "12:01:14",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-21T15:00:05.000Z",
-      "date": "2026-10-21",
-      "time": "12:00:05",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-21T14:53:22.000Z",
-      "date": "2026-10-21",
-      "time": "11:53:22",
-      "kind": "END",
-      "agent": "post-meeting-followup",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -1081,14 +1081,14 @@
       4,
       3,
       3,
-      35,
+      36,
       110,
       134,
       182,
       135,
       126,
       128,
-      133,
+      134,
       129,
       151,
       160,
