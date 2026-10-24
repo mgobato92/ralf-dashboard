@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-23T17:05:38.362Z",
+  "generatedAt": "2026-10-24T17:09:25.155Z",
   "summary": {
-    "totalRuns": 7725,
-    "runsToday": 2,
-    "uptime": 88.1,
+    "totalRuns": 7726,
+    "runsToday": 1,
+    "uptime": 88,
     "activeAgents": 22,
-    "totalFailures": 921,
-    "lastActivityIso": "2026-10-23T17:05:38.000Z"
+    "totalFailures": 922,
+    "lastActivityIso": "2026-10-24T17:09:24.000Z"
   },
   "agents": [
     {
@@ -37,7 +37,7 @@
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
       "runs": 130,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
@@ -461,6 +461,22 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-10-24T17:09:24.000Z",
+      "date": "2026-10-24",
+      "time": "14:09:24",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-10-23T17:05:38.000Z",
+      "date": "2026-10-23",
+      "time": "14:05:38",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 1
+    },
     {
       "iso": "2026-10-23T17:05:38.000Z",
       "date": "2026-10-23",
@@ -924,22 +940,6 @@
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
-    },
-    {
-      "iso": "2026-10-21T17:15:04.000Z",
-      "date": "2026-10-21",
-      "time": "14:15:04",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-21T17:01:45.000Z",
-      "date": "2026-10-21",
-      "time": "14:01:45",
-      "kind": "END",
-      "agent": "dashboard-refresh",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -1114,7 +1114,7 @@
       0,
       0,
       0,
-      16,
+      17,
       4,
       0,
       0,
