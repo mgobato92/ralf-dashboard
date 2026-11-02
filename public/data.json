@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-01T17:12:44.980Z",
+  "generatedAt": "2026-11-02T17:00:43.487Z",
   "summary": {
-    "totalRuns": 7981,
-    "runsToday": 1,
+    "totalRuns": 7987,
+    "runsToday": 2,
     "uptime": 88.3,
     "activeAgents": 22,
     "totalFailures": 930,
-    "lastActivityIso": "2026-11-01T17:12:44.000Z"
+    "lastActivityIso": "2026-11-02T17:00:43.000Z"
   },
   "agents": [
     {
@@ -36,13 +36,13 @@
       "category": "core",
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
-      "runs": 135,
-      "runsToday": 0,
+      "runs": 136,
+      "runsToday": 1,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
-      "lastStartIso": "2026-10-30T10:30:51.000Z",
-      "lastEndIso": "2026-10-30T10:30:55.000Z",
+      "lastStartIso": "2026-11-02T10:30:00.000Z",
+      "lastEndIso": "2026-11-02T10:30:05.000Z",
       "lastExit": null
     },
     {
@@ -180,13 +180,13 @@
       "category": "periodic",
       "schedule": "Follows weekly cleanup",
       "description": "Confirms the weekly to-do cleanup landed and de-dupes any stragglers.",
-      "runs": 298,
+      "runs": 299,
       "runsToday": 0,
       "successRate": 85,
       "failures": 45,
       "status": "ok",
-      "lastStartIso": "2026-10-30T21:13:01.000Z",
-      "lastEndIso": "2026-10-30T21:13:28.000Z",
+      "lastStartIso": "2026-11-01T21:14:22.000Z",
+      "lastEndIso": "2026-11-01T21:14:49.000Z",
       "lastExit": 0
     },
     {
@@ -252,13 +252,13 @@
       "category": "periodic",
       "schedule": "1st of month 9:03 BRT",
       "description": "Monthly pass over active projects and their status.",
-      "runs": 6,
+      "runs": 7,
       "runsToday": 0,
-      "successRate": 50,
+      "successRate": 57,
       "failures": 3,
       "status": "ok",
-      "lastStartIso": "2026-10-01T08:57:05.000Z",
-      "lastEndIso": "2026-10-01T09:00:30.000Z",
+      "lastStartIso": "2026-11-01T21:14:23.000Z",
+      "lastEndIso": "2026-11-01T21:15:32.000Z",
       "lastExit": 0
     },
     {
@@ -288,13 +288,13 @@
       "category": "periodic",
       "schedule": "Monthly",
       "description": "Monthly review of fund relationships and commitments.",
-      "runs": 5,
+      "runs": 6,
       "runsToday": 0,
-      "successRate": 60,
+      "successRate": 67,
       "failures": 2,
       "status": "ok",
-      "lastStartIso": "2026-10-01T08:57:04.000Z",
-      "lastEndIso": "2026-10-01T09:03:13.000Z",
+      "lastStartIso": "2026-11-01T21:14:23.000Z",
+      "lastEndIso": "2026-11-01T21:16:02.000Z",
       "lastExit": 0
     },
     {
@@ -461,6 +461,102 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-11-02T17:00:43.000Z",
+      "date": "2026-11-02",
+      "time": "14:00:43",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-02T10:30:05.000Z",
+      "date": "2026-11-02",
+      "time": "07:30:05",
+      "kind": "END",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-02T10:30:00.000Z",
+      "date": "2026-11-02",
+      "time": "07:30:00",
+      "kind": "START",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-01T21:16:58.000Z",
+      "date": "2026-11-01",
+      "time": "18:16:58",
+      "kind": "END",
+      "agent": "monthly-network-review",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-01T21:16:02.000Z",
+      "date": "2026-11-01",
+      "time": "18:16:02",
+      "kind": "END",
+      "agent": "monthly-funds-review",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-01T21:15:32.000Z",
+      "date": "2026-11-01",
+      "time": "18:15:32",
+      "kind": "END",
+      "agent": "monthly-project-review",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-01T21:14:49.000Z",
+      "date": "2026-11-01",
+      "time": "18:14:49",
+      "kind": "END",
+      "agent": "todo-cleanup-followup",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-01T21:14:23.000Z",
+      "date": "2026-11-01",
+      "time": "18:14:23",
+      "kind": "START",
+      "agent": "monthly-project-review",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-01T21:14:23.000Z",
+      "date": "2026-11-01",
+      "time": "18:14:23",
+      "kind": "START",
+      "agent": "monthly-network-review",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-01T21:14:23.000Z",
+      "date": "2026-11-01",
+      "time": "18:14:23",
+      "kind": "START",
+      "agent": "monthly-funds-review",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-01T21:14:22.000Z",
+      "date": "2026-11-01",
+      "time": "18:14:22",
+      "kind": "START",
+      "agent": "todo-cleanup-followup",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-01T17:12:47.000Z",
+      "date": "2026-11-01",
+      "time": "14:12:47",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 0
+    },
     {
       "iso": "2026-11-01T17:12:44.000Z",
       "date": "2026-11-01",
@@ -844,102 +940,6 @@
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
-    },
-    {
-      "iso": "2026-10-30T15:15:00.000Z",
-      "date": "2026-10-30",
-      "time": "12:15:00",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T15:00:42.000Z",
-      "date": "2026-10-30",
-      "time": "12:00:42",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-30T15:00:04.000Z",
-      "date": "2026-10-30",
-      "time": "12:00:04",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T14:53:16.000Z",
-      "date": "2026-10-30",
-      "time": "11:53:16",
-      "kind": "END",
-      "agent": "post-meeting-followup",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-30T14:53:05.000Z",
-      "date": "2026-10-30",
-      "time": "11:53:05",
-      "kind": "START",
-      "agent": "post-meeting-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T14:45:50.000Z",
-      "date": "2026-10-30",
-      "time": "11:45:50",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-30T14:45:02.000Z",
-      "date": "2026-10-30",
-      "time": "11:45:02",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T14:43:29.000Z",
-      "date": "2026-10-30",
-      "time": "11:43:29",
-      "kind": "END",
-      "agent": "post-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-30T14:43:02.000Z",
-      "date": "2026-10-30",
-      "time": "11:43:02",
-      "kind": "START",
-      "agent": "post-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T14:30:20.000Z",
-      "date": "2026-10-30",
-      "time": "11:30:20",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-10-30T14:30:03.000Z",
-      "date": "2026-10-30",
-      "time": "11:30:03",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-10-30T14:15:19.000Z",
-      "date": "2026-10-30",
-      "time": "11:15:19",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -962,7 +962,7 @@
       1,
       1,
       24,
-      23,
+      27,
       0,
       0,
       0,
@@ -977,14 +977,14 @@
       1,
       5,
       2,
-      33,
+      34,
       132,
       145,
       217,
       151,
       139,
       131,
-      141,
+      142,
       135,
       118,
       136,
