@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-12T17:00:05.336Z",
+  "generatedAt": "2026-11-13T17:00:05.306Z",
   "summary": {
-    "totalRuns": 8382,
-    "runsToday": 33,
-    "uptime": 88.8,
+    "totalRuns": 8433,
+    "runsToday": 20,
+    "uptime": 88.9,
     "activeAgents": 23,
     "totalFailures": 938,
-    "lastActivityIso": "2026-11-12T17:00:04.000Z"
+    "lastActivityIso": "2026-11-13T17:00:05.000Z"
   },
   "agents": [
     {
@@ -36,13 +36,13 @@
       "category": "core",
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
-      "runs": 144,
+      "runs": 145,
       "runsToday": 1,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
-      "lastStartIso": "2026-11-12T10:32:35.000Z",
-      "lastEndIso": "2026-11-12T10:32:39.000Z",
+      "lastStartIso": "2026-11-13T10:36:07.000Z",
+      "lastEndIso": "2026-11-13T10:36:12.000Z",
       "lastExit": null
     },
     {
@@ -72,13 +72,13 @@
       "category": "daily",
       "schedule": "Hourly :13 (8a–6p)",
       "description": "Prepares a brief ahead of each upcoming meeting: who, context, recent threads, and what to land.",
-      "runs": 4389,
-      "runsToday": 18,
+      "runs": 4420,
+      "runsToday": 12,
       "successRate": 92,
       "failures": 354,
       "status": "running",
-      "lastStartIso": "2026-11-12T17:00:04.000Z",
-      "lastEndIso": "2026-11-12T16:45:22.000Z",
+      "lastStartIso": "2026-11-13T17:00:05.000Z",
+      "lastEndIso": "2026-11-13T16:45:22.000Z",
       "lastExit": 0
     },
     {
@@ -90,13 +90,13 @@
       "category": "daily",
       "schedule": "Hourly :43 (8a–6p)",
       "description": "Processes the last meeting: notes, decisions, and new action items into the Action Items DB.",
-      "runs": 1452,
-      "runsToday": 5,
+      "runs": 1460,
+      "runsToday": 3,
       "successRate": 82,
       "failures": 267,
       "status": "ok",
-      "lastStartIso": "2026-11-12T16:43:04.000Z",
-      "lastEndIso": "2026-11-12T16:43:32.000Z",
+      "lastStartIso": "2026-11-13T16:43:05.000Z",
+      "lastEndIso": "2026-11-13T16:43:27.000Z",
       "lastExit": 0
     },
     {
@@ -108,13 +108,13 @@
       "category": "daily",
       "schedule": "Follows each post-meeting run",
       "description": "Second pass after post-meeting to chase loose ends and confirm captured items.",
-      "runs": 1165,
-      "runsToday": 5,
+      "runs": 1173,
+      "runsToday": 3,
       "successRate": 94,
       "failures": 72,
       "status": "ok",
-      "lastStartIso": "2026-11-12T16:53:05.000Z",
-      "lastEndIso": "2026-11-12T16:53:21.000Z",
+      "lastStartIso": "2026-11-13T16:53:05.000Z",
+      "lastEndIso": "2026-11-13T16:53:21.000Z",
       "lastExit": 0
     },
     {
@@ -126,13 +126,13 @@
       "category": "daily",
       "schedule": "Weekdays 17:57 BRT",
       "description": "Wraps the day: what got done, what slipped, and what's queued for tomorrow.",
-      "runs": 148,
+      "runs": 149,
       "runsToday": 0,
       "successRate": 75,
       "failures": 37,
       "status": "ok",
-      "lastStartIso": "2026-11-11T20:57:05.000Z",
-      "lastEndIso": "2026-11-11T20:59:42.000Z",
+      "lastStartIso": "2026-11-12T20:57:05.000Z",
+      "lastEndIso": "2026-11-12T21:00:15.000Z",
       "lastExit": 0
     },
     {
@@ -163,7 +163,7 @@
       "schedule": "Recurring",
       "description": "Tracks fund relationships and surfaces follow-ups that are due.",
       "runs": 165,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 86,
       "failures": 23,
       "status": "ok",
@@ -180,13 +180,13 @@
       "category": "periodic",
       "schedule": "Follows weekly cleanup",
       "description": "Confirms the weekly to-do cleanup landed and de-dupes any stragglers.",
-      "runs": 312,
-      "runsToday": 1,
-      "successRate": 85,
+      "runs": 313,
+      "runsToday": 0,
+      "successRate": 86,
       "failures": 45,
       "status": "ok",
-      "lastStartIso": "2026-11-12T13:13:04.000Z",
-      "lastEndIso": "2026-11-12T13:13:25.000Z",
+      "lastStartIso": "2026-11-12T21:13:03.000Z",
+      "lastEndIso": "2026-11-12T21:13:25.000Z",
       "lastExit": 0
     },
     {
@@ -271,7 +271,7 @@
       "schedule": "Monthly",
       "description": "Surfaces people in the network who are due for a touchpoint.",
       "runs": 128,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 88,
       "failures": 16,
       "status": "ok",
@@ -462,483 +462,483 @@
   ],
   "feed": [
     {
-      "iso": "2026-11-12T17:00:04.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T17:00:05.000Z",
+      "date": "2026-11-13",
+      "time": "14:00:05",
+      "kind": "START",
+      "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T17:00:04.000Z",
+      "date": "2026-11-13",
       "time": "14:00:04",
       "kind": "START",
       "agent": "dashboard-refresh",
       "exit": null
     },
     {
-      "iso": "2026-11-12T17:00:04.000Z",
-      "date": "2026-11-12",
-      "time": "14:00:04",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T16:53:21.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T16:53:21.000Z",
+      "date": "2026-11-13",
       "time": "13:53:21",
       "kind": "END",
       "agent": "post-meeting-followup",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T16:53:05.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T16:53:05.000Z",
+      "date": "2026-11-13",
       "time": "13:53:05",
       "kind": "START",
       "agent": "post-meeting-followup",
       "exit": null
     },
     {
-      "iso": "2026-11-12T16:45:22.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T16:45:22.000Z",
+      "date": "2026-11-13",
       "time": "13:45:22",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T16:45:00.000Z",
-      "date": "2026-11-12",
-      "time": "13:45:00",
+      "iso": "2026-11-13T16:45:05.000Z",
+      "date": "2026-11-13",
+      "time": "13:45:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T16:43:32.000Z",
-      "date": "2026-11-12",
-      "time": "13:43:32",
+      "iso": "2026-11-13T16:43:27.000Z",
+      "date": "2026-11-13",
+      "time": "13:43:27",
       "kind": "END",
       "agent": "post-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T16:43:04.000Z",
-      "date": "2026-11-12",
-      "time": "13:43:04",
+      "iso": "2026-11-13T16:43:05.000Z",
+      "date": "2026-11-13",
+      "time": "13:43:05",
       "kind": "START",
       "agent": "post-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T16:31:24.000Z",
-      "date": "2026-11-12",
-      "time": "13:31:24",
+      "iso": "2026-11-13T16:30:19.000Z",
+      "date": "2026-11-13",
+      "time": "13:30:19",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T16:30:21.000Z",
-      "date": "2026-11-12",
-      "time": "13:30:21",
+      "iso": "2026-11-13T16:30:02.000Z",
+      "date": "2026-11-13",
+      "time": "13:30:02",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T16:15:22.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T16:15:22.000Z",
+      "date": "2026-11-13",
       "time": "13:15:22",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T16:15:05.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T16:15:05.000Z",
+      "date": "2026-11-13",
       "time": "13:15:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T16:00:19.000Z",
-      "date": "2026-11-12",
-      "time": "13:00:19",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T16:00:02.000Z",
-      "date": "2026-11-12",
-      "time": "13:00:02",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T15:53:14.000Z",
-      "date": "2026-11-12",
-      "time": "12:53:14",
-      "kind": "END",
-      "agent": "post-meeting-followup",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T15:53:03.000Z",
-      "date": "2026-11-12",
-      "time": "12:53:03",
-      "kind": "START",
-      "agent": "post-meeting-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T15:45:27.000Z",
-      "date": "2026-11-12",
-      "time": "12:45:27",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T15:45:05.000Z",
-      "date": "2026-11-12",
-      "time": "12:45:05",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T15:43:24.000Z",
-      "date": "2026-11-12",
-      "time": "12:43:24",
+      "iso": "2026-11-13T16:01:44.000Z",
+      "date": "2026-11-13",
+      "time": "13:01:44",
       "kind": "END",
       "agent": "post-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T15:43:02.000Z",
-      "date": "2026-11-12",
-      "time": "12:43:02",
-      "kind": "START",
-      "agent": "post-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T15:33:01.000Z",
-      "date": "2026-11-12",
-      "time": "12:33:01",
+      "iso": "2026-11-13T16:00:28.000Z",
+      "date": "2026-11-13",
+      "time": "13:00:28",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T15:32:44.000Z",
-      "date": "2026-11-12",
-      "time": "12:32:44",
+      "iso": "2026-11-13T16:00:05.000Z",
+      "date": "2026-11-13",
+      "time": "13:00:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T15:15:35.000Z",
-      "date": "2026-11-12",
-      "time": "12:15:35",
+      "iso": "2026-11-13T15:59:57.000Z",
+      "date": "2026-11-13",
+      "time": "12:59:57",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T15:15:17.000Z",
-      "date": "2026-11-12",
-      "time": "12:15:17",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T15:00:20.000Z",
-      "date": "2026-11-12",
-      "time": "12:00:20",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T15:00:02.000Z",
-      "date": "2026-11-12",
-      "time": "12:00:02",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T14:53:21.000Z",
-      "date": "2026-11-12",
-      "time": "11:53:21",
+      "iso": "2026-11-13T15:59:55.000Z",
+      "date": "2026-11-13",
+      "time": "12:59:55",
       "kind": "END",
       "agent": "post-meeting-followup",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T14:53:05.000Z",
-      "date": "2026-11-12",
+      "iso": "2026-11-13T15:54:08.000Z",
+      "date": "2026-11-13",
+      "time": "12:54:08",
+      "kind": "START",
+      "agent": "post-meeting-followup",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T15:54:08.000Z",
+      "date": "2026-11-13",
+      "time": "12:54:08",
+      "kind": "START",
+      "agent": "post-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T15:54:08.000Z",
+      "date": "2026-11-13",
+      "time": "12:54:08",
+      "kind": "START",
+      "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T15:31:02.000Z",
+      "date": "2026-11-13",
+      "time": "12:31:02",
+      "kind": "END",
+      "agent": "pre-meeting",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-13T15:30:05.000Z",
+      "date": "2026-11-13",
+      "time": "12:30:05",
+      "kind": "START",
+      "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T15:15:22.000Z",
+      "date": "2026-11-13",
+      "time": "12:15:22",
+      "kind": "END",
+      "agent": "pre-meeting",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-13T15:15:05.000Z",
+      "date": "2026-11-13",
+      "time": "12:15:05",
+      "kind": "START",
+      "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T15:00:32.000Z",
+      "date": "2026-11-13",
+      "time": "12:00:32",
+      "kind": "END",
+      "agent": "pre-meeting",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-13T15:00:05.000Z",
+      "date": "2026-11-13",
+      "time": "12:00:05",
+      "kind": "START",
+      "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-13T14:53:16.000Z",
+      "date": "2026-11-13",
+      "time": "11:53:16",
+      "kind": "END",
+      "agent": "post-meeting-followup",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-13T14:53:05.000Z",
+      "date": "2026-11-13",
       "time": "11:53:05",
       "kind": "START",
       "agent": "post-meeting-followup",
       "exit": null
     },
     {
-      "iso": "2026-11-12T14:45:18.000Z",
-      "date": "2026-11-12",
-      "time": "11:45:18",
+      "iso": "2026-11-13T14:46:38.000Z",
+      "date": "2026-11-13",
+      "time": "11:46:38",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T14:45:01.000Z",
-      "date": "2026-11-12",
-      "time": "11:45:01",
+      "iso": "2026-11-13T14:45:05.000Z",
+      "date": "2026-11-13",
+      "time": "11:45:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T14:44:24.000Z",
-      "date": "2026-11-12",
-      "time": "11:44:24",
+      "iso": "2026-11-13T14:43:32.000Z",
+      "date": "2026-11-13",
+      "time": "11:43:32",
       "kind": "END",
       "agent": "post-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T14:43:01.000Z",
-      "date": "2026-11-12",
-      "time": "11:43:01",
+      "iso": "2026-11-13T14:43:04.000Z",
+      "date": "2026-11-13",
+      "time": "11:43:04",
       "kind": "START",
       "agent": "post-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T14:30:22.000Z",
-      "date": "2026-11-12",
-      "time": "11:30:22",
+      "iso": "2026-11-13T14:30:34.000Z",
+      "date": "2026-11-13",
+      "time": "11:30:34",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T14:30:05.000Z",
-      "date": "2026-11-12",
-      "time": "11:30:05",
+      "iso": "2026-11-13T14:30:06.000Z",
+      "date": "2026-11-13",
+      "time": "11:30:06",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T14:15:21.000Z",
-      "date": "2026-11-12",
-      "time": "11:15:21",
+      "iso": "2026-11-13T14:15:30.000Z",
+      "date": "2026-11-13",
+      "time": "11:15:30",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T14:15:04.000Z",
-      "date": "2026-11-12",
-      "time": "11:15:04",
+      "iso": "2026-11-13T14:15:03.000Z",
+      "date": "2026-11-13",
+      "time": "11:15:03",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T14:00:39.000Z",
-      "date": "2026-11-12",
-      "time": "11:00:39",
+      "iso": "2026-11-13T10:36:12.000Z",
+      "date": "2026-11-13",
+      "time": "07:36:12",
       "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T14:00:02.000Z",
-      "date": "2026-11-12",
-      "time": "11:00:02",
-      "kind": "START",
-      "agent": "pre-meeting",
+      "agent": "auth-watchdog",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:53:19.000Z",
+      "iso": "2026-11-13T10:36:07.000Z",
+      "date": "2026-11-13",
+      "time": "07:36:07",
+      "kind": "START",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-12T21:53:21.000Z",
       "date": "2026-11-12",
-      "time": "10:53:19",
+      "time": "18:53:21",
       "kind": "END",
       "agent": "post-meeting-followup",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:53:03.000Z",
+      "iso": "2026-11-12T21:53:05.000Z",
       "date": "2026-11-12",
-      "time": "10:53:03",
+      "time": "18:53:05",
       "kind": "START",
       "agent": "post-meeting-followup",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:45:29.000Z",
+      "iso": "2026-11-12T21:45:27.000Z",
       "date": "2026-11-12",
-      "time": "10:45:29",
+      "time": "18:45:27",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:45:02.000Z",
+      "iso": "2026-11-12T21:45:05.000Z",
       "date": "2026-11-12",
-      "time": "10:45:02",
+      "time": "18:45:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:44:30.000Z",
+      "iso": "2026-11-12T21:44:38.000Z",
       "date": "2026-11-12",
-      "time": "10:44:30",
+      "time": "18:44:38",
       "kind": "END",
       "agent": "post-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:43:02.000Z",
+      "iso": "2026-11-12T21:43:05.000Z",
       "date": "2026-11-12",
-      "time": "10:43:02",
+      "time": "18:43:05",
       "kind": "START",
       "agent": "post-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:30:22.000Z",
+      "iso": "2026-11-12T21:30:19.000Z",
       "date": "2026-11-12",
-      "time": "10:30:22",
+      "time": "18:30:19",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:30:00.000Z",
+      "iso": "2026-11-12T21:30:02.000Z",
       "date": "2026-11-12",
-      "time": "10:30:00",
+      "time": "18:30:02",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:15:20.000Z",
+      "iso": "2026-11-12T21:15:22.000Z",
       "date": "2026-11-12",
-      "time": "10:15:20",
+      "time": "18:15:22",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:15:03.000Z",
+      "iso": "2026-11-12T21:15:05.000Z",
       "date": "2026-11-12",
-      "time": "10:15:03",
+      "time": "18:15:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:13:25.000Z",
+      "iso": "2026-11-12T21:13:25.000Z",
       "date": "2026-11-12",
-      "time": "10:13:25",
+      "time": "18:13:25",
       "kind": "END",
       "agent": "todo-cleanup-followup",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:13:04.000Z",
+      "iso": "2026-11-12T21:13:03.000Z",
       "date": "2026-11-12",
-      "time": "10:13:04",
+      "time": "18:13:03",
       "kind": "START",
       "agent": "todo-cleanup-followup",
       "exit": null
     },
     {
-      "iso": "2026-11-12T13:08:15.000Z",
+      "iso": "2026-11-12T21:00:22.000Z",
       "date": "2026-11-12",
-      "time": "10:08:15",
-      "kind": "END",
-      "agent": "monthly-network-followup",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T13:08:04.000Z",
-      "date": "2026-11-12",
-      "time": "10:08:04",
-      "kind": "START",
-      "agent": "monthly-network-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T13:03:15.000Z",
-      "date": "2026-11-12",
-      "time": "10:03:15",
-      "kind": "END",
-      "agent": "funds-followup",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-12T13:03:04.000Z",
-      "date": "2026-11-12",
-      "time": "10:03:04",
-      "kind": "START",
-      "agent": "funds-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-12T13:00:22.000Z",
-      "date": "2026-11-12",
-      "time": "10:00:22",
+      "time": "18:00:22",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T13:00:00.000Z",
+      "iso": "2026-11-12T21:00:15.000Z",
       "date": "2026-11-12",
-      "time": "10:00:00",
+      "time": "18:00:15",
+      "kind": "END",
+      "agent": "evening-recap",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-12T21:00:05.000Z",
+      "date": "2026-11-12",
+      "time": "18:00:05",
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
     },
     {
-      "iso": "2026-11-12T12:53:18.000Z",
+      "iso": "2026-11-12T20:57:05.000Z",
       "date": "2026-11-12",
-      "time": "09:53:18",
+      "time": "17:57:05",
+      "kind": "START",
+      "agent": "evening-recap",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-12T20:53:21.000Z",
+      "date": "2026-11-12",
+      "time": "17:53:21",
       "kind": "END",
       "agent": "post-meeting-followup",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T12:53:02.000Z",
+      "iso": "2026-11-12T20:53:05.000Z",
       "date": "2026-11-12",
-      "time": "09:53:02",
+      "time": "17:53:05",
       "kind": "START",
       "agent": "post-meeting-followup",
       "exit": null
     },
     {
-      "iso": "2026-11-12T12:45:17.000Z",
+      "iso": "2026-11-12T20:45:42.000Z",
       "date": "2026-11-12",
-      "time": "09:45:17",
+      "time": "17:45:42",
+      "kind": "END",
+      "agent": "post-meeting",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-12T20:45:17.000Z",
+      "date": "2026-11-12",
+      "time": "17:45:17",
       "kind": "END",
       "agent": "pre-meeting",
       "exit": 0
     },
     {
-      "iso": "2026-11-12T12:45:00.000Z",
+      "iso": "2026-11-12T20:45:00.000Z",
       "date": "2026-11-12",
-      "time": "09:45:00",
+      "time": "17:45:00",
       "kind": "START",
       "agent": "pre-meeting",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-12T20:43:02.000Z",
+      "date": "2026-11-12",
+      "time": "17:43:02",
+      "kind": "START",
+      "agent": "post-meeting",
       "exit": null
     }
   ],
@@ -1062,11 +1062,11 @@
       148,
       140,
       134,
-      155,
-      137,
-      125,
-      144,
-      146,
+      160,
+      143,
+      131,
+      151,
+      153,
       4,
       1,
       1,
@@ -1081,14 +1081,14 @@
       4,
       3,
       3,
-      38,
+      39,
       110,
       140,
       194,
-      146,
-      131,
-      128,
-      140,
+      151,
+      137,
+      134,
+      142,
       140,
       161,
       168,
