@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T17:02:58.536Z",
+  "generatedAt": "2026-11-15T17:05:00.491Z",
   "summary": {
-    "totalRuns": 8454,
+    "totalRuns": 8455,
     "runsToday": 1,
     "uptime": 88.9,
     "activeAgents": 23,
     "totalFailures": 938,
-    "lastActivityIso": "2026-11-14T17:02:57.000Z"
+    "lastActivityIso": "2026-11-15T17:04:56.000Z"
   },
   "agents": [
     {
@@ -461,6 +461,22 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-11-15T17:04:56.000Z",
+      "date": "2026-11-15",
+      "time": "14:04:56",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-14T17:03:01.000Z",
+      "date": "2026-11-14",
+      "time": "14:03:01",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 0
+    },
     {
       "iso": "2026-11-14T17:02:57.000Z",
       "date": "2026-11-14",
@@ -924,22 +940,6 @@
       "kind": "START",
       "agent": "pre-meeting",
       "exit": null
-    },
-    {
-      "iso": "2026-11-13T15:59:57.000Z",
-      "date": "2026-11-13",
-      "time": "12:59:57",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-13T15:59:55.000Z",
-      "date": "2026-11-13",
-      "time": "12:59:55",
-      "kind": "END",
-      "agent": "post-meeting-followup",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -958,7 +958,7 @@
       2,
       1,
       0,
-      19,
+      20,
       1,
       1,
       24,
