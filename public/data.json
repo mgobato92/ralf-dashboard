@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T17:15:46.861Z",
+  "generatedAt": "2026-11-18T17:09:53.944Z",
   "summary": {
-    "totalRuns": 8491,
-    "runsToday": 9,
+    "totalRuns": 8495,
+    "runsToday": 2,
     "uptime": 88.9,
     "activeAgents": 23,
-    "totalFailures": 939,
-    "lastActivityIso": "2026-11-17T17:15:46.000Z"
+    "totalFailures": 940,
+    "lastActivityIso": "2026-11-18T17:09:53.000Z"
   },
   "agents": [
     {
@@ -36,13 +36,13 @@
       "category": "core",
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
-      "runs": 147,
+      "runs": 148,
       "runsToday": 1,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
-      "lastStartIso": "2026-11-17T10:34:54.000Z",
-      "lastEndIso": "2026-11-17T11:21:04.000Z",
+      "lastStartIso": "2026-11-18T10:32:09.000Z",
+      "lastEndIso": "2026-11-18T10:46:18.000Z",
       "lastExit": null
     },
     {
@@ -73,7 +73,7 @@
       "schedule": "Hourly :13 (8a–6p)",
       "description": "Prepares a brief ahead of each upcoming meeting: who, context, recent threads, and what to land.",
       "runs": 4450,
-      "runsToday": 5,
+      "runsToday": 0,
       "successRate": 92,
       "failures": 354,
       "status": "ok",
@@ -91,7 +91,7 @@
       "schedule": "Hourly :43 (8a–6p)",
       "description": "Processes the last meeting: notes, decisions, and new action items into the Action Items DB.",
       "runs": 1467,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 82,
       "failures": 267,
       "status": "ok",
@@ -108,13 +108,13 @@
       "category": "daily",
       "schedule": "Follows each post-meeting run",
       "description": "Second pass after post-meeting to chase loose ends and confirm captured items.",
-      "runs": 1179,
-      "runsToday": 1,
+      "runs": 1180,
+      "runsToday": 0,
       "successRate": 94,
       "failures": 72,
       "status": "ok",
-      "lastStartIso": "2026-11-17T11:53:05.000Z",
-      "lastEndIso": "2026-11-17T11:53:16.000Z",
+      "lastStartIso": "2026-11-17T22:00:47.000Z",
+      "lastEndIso": "2026-11-17T22:01:12.000Z",
       "lastExit": 0
     },
     {
@@ -126,13 +126,13 @@
       "category": "daily",
       "schedule": "Weekdays 17:57 BRT",
       "description": "Wraps the day: what got done, what slipped, and what's queued for tomorrow.",
-      "runs": 150,
+      "runs": 151,
       "runsToday": 0,
       "successRate": 75,
       "failures": 37,
       "status": "ok",
-      "lastStartIso": "2026-11-13T21:15:07.000Z",
-      "lastEndIso": "2026-11-13T21:17:16.000Z",
+      "lastStartIso": "2026-11-17T22:00:57.000Z",
+      "lastEndIso": "2026-11-17T22:05:09.000Z",
       "lastExit": 0
     },
     {
@@ -461,6 +461,70 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-11-18T17:09:53.000Z",
+      "date": "2026-11-18",
+      "time": "14:09:53",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-18T10:46:18.000Z",
+      "date": "2026-11-18",
+      "time": "07:46:18",
+      "kind": "END",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-18T10:32:09.000Z",
+      "date": "2026-11-18",
+      "time": "07:32:09",
+      "kind": "START",
+      "agent": "auth-watchdog",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-17T22:05:09.000Z",
+      "date": "2026-11-17",
+      "time": "19:05:09",
+      "kind": "END",
+      "agent": "evening-recap",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-17T22:01:12.000Z",
+      "date": "2026-11-17",
+      "time": "19:01:12",
+      "kind": "END",
+      "agent": "post-meeting-followup",
+      "exit": 0
+    },
+    {
+      "iso": "2026-11-17T22:00:57.000Z",
+      "date": "2026-11-17",
+      "time": "19:00:57",
+      "kind": "START",
+      "agent": "evening-recap",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-17T22:00:47.000Z",
+      "date": "2026-11-17",
+      "time": "19:00:47",
+      "kind": "START",
+      "agent": "post-meeting-followup",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-17T17:15:47.000Z",
+      "date": "2026-11-17",
+      "time": "14:15:47",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 1
+    },
     {
       "iso": "2026-11-17T17:15:46.000Z",
       "date": "2026-11-17",
@@ -876,70 +940,6 @@
       "kind": "END",
       "agent": "post-meeting-followup",
       "exit": 0
-    },
-    {
-      "iso": "2026-11-16T12:53:06.000Z",
-      "date": "2026-11-16",
-      "time": "09:53:06",
-      "kind": "START",
-      "agent": "post-meeting-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-16T12:45:45.000Z",
-      "date": "2026-11-16",
-      "time": "09:45:45",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-16T12:45:05.000Z",
-      "date": "2026-11-16",
-      "time": "09:45:05",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-16T12:43:54.000Z",
-      "date": "2026-11-16",
-      "time": "09:43:54",
-      "kind": "END",
-      "agent": "pre-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-16T12:43:51.000Z",
-      "date": "2026-11-16",
-      "time": "09:43:51",
-      "kind": "END",
-      "agent": "post-meeting",
-      "exit": 0
-    },
-    {
-      "iso": "2026-11-16T12:43:00.000Z",
-      "date": "2026-11-16",
-      "time": "09:43:00",
-      "kind": "START",
-      "agent": "post-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-16T12:42:55.000Z",
-      "date": "2026-11-16",
-      "time": "09:42:55",
-      "kind": "START",
-      "agent": "pre-meeting",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-16T11:33:51.000Z",
-      "date": "2026-11-16",
-      "time": "08:33:51",
-      "kind": "END",
-      "agent": "portfolio-tracker",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -1015,7 +1015,7 @@
       129,
       143,
       153,
-      7,
+      9,
       0,
       0,
       0,
@@ -1029,14 +1029,14 @@
       4,
       4,
       10,
-      43,
+      44,
       94,
       115,
       169,
       139,
       118,
       102,
-      148,
+      149,
       128,
       126,
       153,
