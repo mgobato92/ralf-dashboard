@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T17:08:19.523Z",
+  "generatedAt": "2026-11-21T17:14:18.161Z",
   "summary": {
-    "totalRuns": 8543,
-    "runsToday": 8,
+    "totalRuns": 8544,
+    "runsToday": 1,
     "uptime": 89,
     "activeAgents": 23,
     "totalFailures": 941,
-    "lastActivityIso": "2026-11-20T17:08:19.000Z"
+    "lastActivityIso": "2026-11-21T17:14:17.000Z"
   },
   "agents": [
     {
@@ -37,7 +37,7 @@
       "schedule": "Continuous health check",
       "description": "Supervises auth/session health so the scheduled routines keep firing. Raises an alert when credentials need attention.",
       "runs": 150,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 100,
       "failures": 0,
       "status": "ok",
@@ -73,7 +73,7 @@
       "schedule": "Hourly :13 (8a–6p)",
       "description": "Prepares a brief ahead of each upcoming meeting: who, context, recent threads, and what to land.",
       "runs": 4475,
-      "runsToday": 4,
+      "runsToday": 0,
       "successRate": 92,
       "failures": 354,
       "status": "ok",
@@ -91,7 +91,7 @@
       "schedule": "Hourly :43 (8a–6p)",
       "description": "Processes the last meeting: notes, decisions, and new action items into the Action Items DB.",
       "runs": 1474,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 82,
       "failures": 267,
       "status": "ok",
@@ -109,7 +109,7 @@
       "schedule": "Follows each post-meeting run",
       "description": "Second pass after post-meeting to chase loose ends and confirm captured items.",
       "runs": 1187,
-      "runsToday": 1,
+      "runsToday": 0,
       "successRate": 94,
       "failures": 72,
       "status": "ok",
@@ -461,6 +461,22 @@
     }
   ],
   "feed": [
+    {
+      "iso": "2026-11-21T17:14:17.000Z",
+      "date": "2026-11-21",
+      "time": "14:14:17",
+      "kind": "START",
+      "agent": "dashboard-refresh",
+      "exit": null
+    },
+    {
+      "iso": "2026-11-20T17:08:21.000Z",
+      "date": "2026-11-20",
+      "time": "14:08:21",
+      "kind": "END",
+      "agent": "dashboard-refresh",
+      "exit": 0
+    },
     {
       "iso": "2026-11-20T17:08:19.000Z",
       "date": "2026-11-20",
@@ -924,22 +940,6 @@
       "kind": "END",
       "agent": "todo-cleanup-followup",
       "exit": 0
-    },
-    {
-      "iso": "2026-11-19T13:13:05.000Z",
-      "date": "2026-11-19",
-      "time": "10:13:05",
-      "kind": "START",
-      "agent": "todo-cleanup-followup",
-      "exit": null
-    },
-    {
-      "iso": "2026-11-19T13:08:41.000Z",
-      "date": "2026-11-19",
-      "time": "10:08:41",
-      "kind": "END",
-      "agent": "monthly-network-followup",
-      "exit": 0
     }
   ],
   "heatmap": [
@@ -1114,7 +1114,7 @@
       0,
       0,
       0,
-      20,
+      21,
       4,
       0,
       0,
